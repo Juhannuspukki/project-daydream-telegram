@@ -15,7 +15,7 @@ Basic inline bot example. Applies different text transformations.
 Press Ctrl-C on the command line or send a signal to the process to stop the
 bot.
 """
-import sys
+import os
 import logging
 import json
 import menu
@@ -92,7 +92,7 @@ def main():
     # Create the Updater and pass it your bot's token.
     # Make sure to set use_context=True to use the new context based callbacks
     # Post version 12 this will no longer be necessary
-    updater = Updater(str(sys.argv[1]), use_context=True)
+    updater = Updater(str(os.environ['TOKEN']), use_context=True)
 
     # Get the dispatcher to register handlers
     dp = updater.dispatcher
