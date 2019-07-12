@@ -1028,13 +1028,6 @@
         "sampleSize": 18
       },
       {
-        "code": "ARK-53600",
-        "year": "15-16",
-        "grade": 4.16,
-        "work": 50,
-        "sampleSize": 8
-      },
-      {
         "code": "RAK-13030",
         "year": "15-16",
         "grade": 3.5,
@@ -1056,18 +1049,33 @@
         "sampleSize": 6
       },
       {
-        "code": "ARK-53600",
-        "year": "18-19",
-        "grade": 3.85,
-        "work": 43,
-        "sampleSize": 7
-      },
-      {
         "code": "RAK-13030",
         "year": "18-19",
         "grade": 3.55,
         "work": -10,
         "sampleSize": 16
+      }
+    ],
+    "link": "36059"
+  },
+  {
+    "name": "Rakennushankkeen suunnittelun simulointi",
+    "id": "rakennushankkeen-suunnittelun-simulointi-i-iv-2",
+    "period": "I-IV",
+    "instances": [
+      {
+        "code": "ARK-53600",
+        "year": "15-16",
+        "grade": 4.16,
+        "work": 50,
+        "sampleSize": 8
+      },
+      {
+        "code": "ARK-53600",
+        "year": "18-19",
+        "grade": 3.85,
+        "work": 43,
+        "sampleSize": 7
       }
     ],
     "link": "36059"
@@ -1184,41 +1192,6 @@
       }
     ],
     "link": "35652"
-  },
-  {
-    "name": "Post-graduate Seminar on Pervasive Computing",
-    "id": "post-graduate-seminar-on-pervasive-computing-ii-iii",
-    "period": "II-III",
-    "instances": [
-      {
-        "code": "TIE-12206",
-        "year": "14-15",
-        "grade": 4.38,
-        "work": 1,
-        "sampleSize": 18
-      },
-      {
-        "code": "TIE-12206",
-        "year": "14-15",
-        "grade": 3.8,
-        "work": 0,
-        "sampleSize": 5
-      },
-      {
-        "code": "TIE-12206",
-        "year": "17-18",
-        "grade": 4.5,
-        "work": 10,
-        "sampleSize": 10
-      },
-      {
-        "code": "TIE-12206",
-        "year": "17-18",
-        "grade": 3.05,
-        "work": -14,
-        "sampleSize": 15
-      }
-    ]
   },
   {
     "name": "Elektroniikan työkurssi",
@@ -1990,139 +1963,6 @@
     ]
   },
   {
-    "name": "Introduction to Graduate Studies",
-    "id": "introduction-to-graduate-studies-i",
-    "period": "I",
-    "instances": [
-      {
-        "code": "ARK-41006",
-        "year": "14-15",
-        "grade": 4.25,
-        "work": 0,
-        "sampleSize": 8
-      },
-      {
-        "code": "TST-41006",
-        "year": "14-15",
-        "grade": 4.14,
-        "work": 11,
-        "sampleSize": 70,
-        "letter": "E"
-      },
-      {
-        "code": "TRT-21016",
-        "year": "14-15",
-        "grade": 4.01,
-        "work": 0,
-        "sampleSize": 7
-      },
-      {
-        "code": "TTI-50006",
-        "year": "14-15",
-        "grade": 4.0,
-        "work": 13,
-        "sampleSize": 25,
-        "letter": "E"
-      },
-      {
-        "code": "LTT-31006",
-        "year": "14-15",
-        "grade": 3.85,
-        "work": 43,
-        "sampleSize": 7
-      },
-      {
-        "code": "TRT-21016",
-        "year": "15-16",
-        "grade": 4.52,
-        "work": 1,
-        "sampleSize": 17
-      },
-      {
-        "code": "LTT-31006",
-        "year": "15-16",
-        "grade": 4.22,
-        "work": 17,
-        "sampleSize": 12
-      },
-      {
-        "code": "TST-41006",
-        "year": "15-16",
-        "grade": 4.15,
-        "work": 16,
-        "sampleSize": 65,
-        "letter": "E"
-      },
-      {
-        "code": "TTI-50006",
-        "year": "15-16",
-        "grade": 3.87,
-        "work": 2,
-        "sampleSize": 37,
-        "letter": "M"
-      },
-      {
-        "code": "TTI-50006",
-        "year": "16-17",
-        "grade": 4.61,
-        "work": -8,
-        "sampleSize": 13
-      },
-      {
-        "code": "TRT-21016",
-        "year": "16-17",
-        "grade": 4.39,
-        "work": 1,
-        "sampleSize": 13
-      },
-      {
-        "code": "TST-41006",
-        "year": "16-17",
-        "grade": 4.3,
-        "work": 12,
-        "sampleSize": 74,
-        "letter": "L"
-      },
-      {
-        "code": "TST-41006",
-        "year": "17-18",
-        "grade": 4.44,
-        "work": 17,
-        "sampleSize": 42,
-        "letter": "L"
-      },
-      {
-        "code": "TTI-50006",
-        "year": "17-18",
-        "grade": 4.08,
-        "work": 29,
-        "sampleSize": 14
-      },
-      {
-        "code": "TTI-50006",
-        "year": "18-19",
-        "grade": 4.07,
-        "work": 14,
-        "sampleSize": 8
-      },
-      {
-        "code": "ARK-41006",
-        "year": "18-19",
-        "grade": 3.2,
-        "work": 50,
-        "sampleSize": 5
-      },
-      {
-        "code": "TRT-21016",
-        "year": "18-19",
-        "grade": 2.91,
-        "work": 39,
-        "sampleSize": 7
-      }
-    ],
-    "link": "49977"
-  },
-  {
     "name": "Integrated Circuits CAD",
     "id": "integrated-circuits-cad-i-ii",
     "period": "I-II",
@@ -2626,27 +2466,6 @@
         "year": "16-17",
         "grade": 4.8,
         "work": 0,
-        "sampleSize": 5
-      }
-    ]
-  },
-  {
-    "name": "Tietojohtamisen koulutusohjelman kandidaatintyö",
-    "id": "tietojohtamisen-koulutusohjelman-kandidaatintyo-iii-iv",
-    "period": "III-IV",
-    "instances": [
-      {
-        "code": "TLO-32600",
-        "year": "14-15",
-        "grade": 4.2,
-        "work": 0,
-        "sampleSize": 5
-      },
-      {
-        "code": "TLO-32600",
-        "year": "14-15",
-        "grade": 4.0,
-        "work": -20,
         "sampleSize": 5
       }
     ]
@@ -3261,14 +3080,6 @@
       {
         "code": "FYS-1101",
         "year": "14-15",
-        "grade": 4.16,
-        "work": 2,
-        "sampleSize": 65,
-        "letter": "E"
-      },
-      {
-        "code": "FYS-1101",
-        "year": "14-15",
         "grade": 3.8,
         "work": 6,
         "sampleSize": 100,
@@ -3277,18 +3088,34 @@
       {
         "code": "FYS-1101",
         "year": "15-16",
-        "grade": 4.45,
-        "work": -2,
-        "sampleSize": 48,
-        "letter": "L"
-      },
-      {
-        "code": "FYS-1101",
-        "year": "15-16",
         "grade": 4.06,
         "work": 11,
         "sampleSize": 49,
         "letter": "E"
+      }
+    ],
+    "link": "35607"
+  },
+  {
+    "name": "Insinöörifysiikka II",
+    "id": "insinoorifysiikka-ii-i-ii-2",
+    "period": "I-II",
+    "instances": [
+      {
+        "code": "FYS-1101",
+        "year": "14-15",
+        "grade": 4.16,
+        "work": 2,
+        "sampleSize": 65,
+        "letter": "E"
+      },
+      {
+        "code": "FYS-1101",
+        "year": "15-16",
+        "grade": 4.45,
+        "work": -2,
+        "sampleSize": 48,
+        "letter": "L"
       },
       {
         "code": "FYS-1101",
@@ -3631,6 +3458,21 @@
       },
       {
         "code": "FYS-1091",
+        "year": "15-16",
+        "grade": 3.7,
+        "work": 6,
+        "sampleSize": 69,
+        "letter": "C"
+      }
+    ]
+  },
+  {
+    "name": "Insinöörifysiikka I",
+    "id": "insinoorifysiikka-i-iii-iv-2",
+    "period": "III-IV",
+    "instances": [
+      {
+        "code": "FYS-1091",
         "year": "14-15",
         "grade": 4.1,
         "work": 3,
@@ -3644,14 +3486,6 @@
         "work": -1,
         "sampleSize": 58,
         "letter": "L"
-      },
-      {
-        "code": "FYS-1091",
-        "year": "15-16",
-        "grade": 3.7,
-        "work": 6,
-        "sampleSize": 69,
-        "letter": "C"
       },
       {
         "code": "FYS-1091",
@@ -3828,85 +3662,6 @@
         "letter": "E"
       }
     ]
-  },
-  {
-    "name": "Master's Thesis Seminar",
-    "id": "master-s-thesis-seminar-i-iv",
-    "period": "I-IV",
-    "instances": [
-      {
-        "code": "TST-01906",
-        "year": "14-15",
-        "grade": 4.13,
-        "work": 17,
-        "sampleSize": 23,
-        "letter": "E"
-      },
-      {
-        "code": "MOL-12286",
-        "year": "14-15",
-        "grade": 3.81,
-        "work": 5,
-        "sampleSize": 45,
-        "letter": "M"
-      },
-      {
-        "code": "TST-01906",
-        "year": "14-15",
-        "grade": 3.73,
-        "work": 4,
-        "sampleSize": 28,
-        "letter": "M"
-      },
-      {
-        "code": "TST-01906",
-        "year": "15-16",
-        "grade": 4.14,
-        "work": 0,
-        "sampleSize": 11
-      },
-      {
-        "code": "TST-01906",
-        "year": "15-16",
-        "grade": 3.9,
-        "work": -2,
-        "sampleSize": 45,
-        "letter": "M"
-      },
-      {
-        "code": "MOL-12286",
-        "year": "15-16",
-        "grade": 3.45,
-        "work": 2,
-        "sampleSize": 27,
-        "letter": "B"
-      },
-      {
-        "code": "MOL-12286",
-        "year": "16-17",
-        "grade": 3.52,
-        "work": 14,
-        "sampleSize": 37,
-        "letter": "C"
-      },
-      {
-        "code": "MOL-12286",
-        "year": "17-18",
-        "grade": 3.76,
-        "work": 9,
-        "sampleSize": 23,
-        "letter": "C"
-      },
-      {
-        "code": "MOL-12286",
-        "year": "18-19",
-        "grade": 3.65,
-        "work": -4,
-        "sampleSize": 28,
-        "letter": "C"
-      }
-    ],
-    "link": "49776"
   },
   {
     "name": "Arkkitehtuurin perusteet",
@@ -8552,76 +8307,12 @@
       {
         "code": "MEI-43000",
         "year": "14-15",
-        "grade": 3.84,
-        "work": 0,
-        "sampleSize": 6
-      },
-      {
-        "code": "MEI-43000",
-        "year": "14-15",
         "grade": 3.65,
         "work": -14,
         "sampleSize": 38,
         "letter": "C"
       }
     ]
-  },
-  {
-    "name": "Kandidaatintyöseminaari",
-    "id": "kandidaatintyoseminaari-iii-iv",
-    "period": "III-IV",
-    "instances": [
-      {
-        "code": "ELT-10050",
-        "year": "14-15",
-        "grade": 3.84,
-        "work": -1,
-        "sampleSize": 12
-      },
-      {
-        "code": "ELT-10050",
-        "year": "15-16",
-        "grade": 3.66,
-        "work": 23,
-        "sampleSize": 13
-      },
-      {
-        "code": "KEB-12000",
-        "year": "15-16",
-        "grade": 3.43,
-        "work": 43,
-        "sampleSize": 5
-      },
-      {
-        "code": "KEB-12000",
-        "year": "16-17",
-        "grade": 3.85,
-        "work": 10,
-        "sampleSize": 11
-      },
-      {
-        "code": "KEB-12000",
-        "year": "17-18",
-        "grade": 4.16,
-        "work": 0,
-        "sampleSize": 15
-      },
-      {
-        "code": "ELT-10050",
-        "year": "18-19",
-        "grade": 4.19,
-        "work": 0,
-        "sampleSize": 9
-      },
-      {
-        "code": "KEB-12000",
-        "year": "18-19",
-        "grade": 3.73,
-        "work": 9,
-        "sampleSize": 8
-      }
-    ],
-    "link": "35937"
   },
   {
     "name": "Rakennussuunnittelun jatkokurssi B",
@@ -9170,26 +8861,10 @@
       {
         "code": "FYS-1080",
         "year": "14-15",
-        "grade": 3.82,
-        "work": 14,
-        "sampleSize": 148,
-        "letter": "M"
-      },
-      {
-        "code": "FYS-1080",
-        "year": "14-15",
         "grade": 3.52,
         "work": 4,
         "sampleSize": 135,
         "letter": "C"
-      },
-      {
-        "code": "FYS-1080",
-        "year": "15-16",
-        "grade": 3.94,
-        "work": 8,
-        "sampleSize": 138,
-        "letter": "M"
       },
       {
         "code": "FYS-1080",
@@ -9202,26 +8877,10 @@
       {
         "code": "FYS-1080",
         "year": "16-17",
-        "grade": 4.09,
-        "work": 17,
-        "sampleSize": 123,
-        "letter": "E"
-      },
-      {
-        "code": "FYS-1080",
-        "year": "16-17",
         "grade": 3.56,
         "work": 12,
         "sampleSize": 85,
         "letter": "C"
-      },
-      {
-        "code": "FYS-1080",
-        "year": "17-18",
-        "grade": 3.96,
-        "work": 14,
-        "sampleSize": 121,
-        "letter": "M"
       },
       {
         "code": "FYS-1080",
@@ -9237,6 +8896,52 @@
         "grade": 3.94,
         "work": 4,
         "sampleSize": 129,
+        "letter": "M"
+      }
+    ]
+  },
+  {
+    "name": "Insinöörifysiikka I: teoria ja laboratorioharjoitukset",
+    "id": "insinoorifysiikka-i-teoria-ja-laboratorioharjoitukset-i-ii-2",
+    "period": "I-II",
+    "instances": [
+      {
+        "code": "FYS-1080",
+        "year": "14-15",
+        "grade": 3.82,
+        "work": 14,
+        "sampleSize": 148,
+        "letter": "M"
+      },
+      {
+        "code": "FYS-1080",
+        "year": "15-16",
+        "grade": 3.94,
+        "work": 8,
+        "sampleSize": 138,
+        "letter": "M"
+      }
+    ]
+  },
+  {
+    "name": "Insinöörifysiikka I: teoria ja laboratorioharjoitukset",
+    "id": "insinoorifysiikka-i-teoria-ja-laboratorioharjoitukset-i-ii-3",
+    "period": "I-II",
+    "instances": [
+      {
+        "code": "FYS-1080",
+        "year": "16-17",
+        "grade": 4.09,
+        "work": 17,
+        "sampleSize": 123,
+        "letter": "E"
+      },
+      {
+        "code": "FYS-1080",
+        "year": "17-18",
+        "grade": 3.96,
+        "work": 14,
+        "sampleSize": 121,
         "letter": "M"
       },
       {
@@ -9741,13 +9446,6 @@
         "grade": 4.69,
         "work": 15,
         "sampleSize": 13
-      },
-      {
-        "code": "TRT-25006",
-        "year": "16-17",
-        "grade": 4.33,
-        "work": 20,
-        "sampleSize": 6
       },
       {
         "code": "TST-01606",
@@ -10976,13 +10674,6 @@
       {
         "code": "TIE-02100",
         "year": "17-18",
-        "grade": 4.2,
-        "work": 45,
-        "sampleSize": 20
-      },
-      {
-        "code": "TIE-02100",
-        "year": "17-18",
         "grade": 4.09,
         "work": 51,
         "sampleSize": 168,
@@ -10998,26 +10689,10 @@
       {
         "code": "FYS-1130",
         "year": "14-15",
-        "grade": 3.74,
-        "work": 10,
-        "sampleSize": 121,
-        "letter": "M"
-      },
-      {
-        "code": "FYS-1130",
-        "year": "14-15",
         "grade": 3.52,
         "work": 9,
         "sampleSize": 101,
         "letter": "C"
-      },
-      {
-        "code": "FYS-1130",
-        "year": "15-16",
-        "grade": 3.85,
-        "work": 10,
-        "sampleSize": 111,
-        "letter": "M"
       },
       {
         "code": "FYS-1130",
@@ -11030,26 +10705,10 @@
       {
         "code": "FYS-1130",
         "year": "16-17",
-        "grade": 4.15,
-        "work": 12,
-        "sampleSize": 97,
-        "letter": "E"
-      },
-      {
-        "code": "FYS-1130",
-        "year": "16-17",
         "grade": 3.44,
         "work": 15,
         "sampleSize": 63,
         "letter": "B"
-      },
-      {
-        "code": "FYS-1130",
-        "year": "17-18",
-        "grade": 4.12,
-        "work": 12,
-        "sampleSize": 90,
-        "letter": "E"
       },
       {
         "code": "FYS-1130",
@@ -11062,18 +10721,66 @@
       {
         "code": "FYS-1130",
         "year": "18-19",
-        "grade": 4.11,
-        "work": 16,
-        "sampleSize": 114,
+        "grade": 3.79,
+        "work": 14,
+        "sampleSize": 112,
+        "letter": "C"
+      }
+    ],
+    "link": "35608"
+  },
+  {
+    "name": "Insinöörifysiikka II: teoria ja laboratorioharjoitukset",
+    "id": "insinoorifysiikka-ii-teoria-ja-laboratorioharjoitukset-iii-iv-2",
+    "period": "III-IV",
+    "instances": [
+      {
+        "code": "FYS-1130",
+        "year": "14-15",
+        "grade": 3.74,
+        "work": 10,
+        "sampleSize": 121,
+        "letter": "M"
+      },
+      {
+        "code": "FYS-1130",
+        "year": "15-16",
+        "grade": 3.85,
+        "work": 10,
+        "sampleSize": 111,
+        "letter": "M"
+      }
+    ],
+    "link": "35608"
+  },
+  {
+    "name": "Insinöörifysiikka II: teoria ja laboratorioharjoitukset",
+    "id": "insinoorifysiikka-ii-teoria-ja-laboratorioharjoitukset-iii-iv-3",
+    "period": "III-IV",
+    "instances": [
+      {
+        "code": "FYS-1130",
+        "year": "16-17",
+        "grade": 4.15,
+        "work": 12,
+        "sampleSize": 97,
+        "letter": "E"
+      },
+      {
+        "code": "FYS-1130",
+        "year": "17-18",
+        "grade": 4.12,
+        "work": 12,
+        "sampleSize": 90,
         "letter": "E"
       },
       {
         "code": "FYS-1130",
         "year": "18-19",
-        "grade": 3.79,
-        "work": 14,
-        "sampleSize": 112,
-        "letter": "C"
+        "grade": 4.11,
+        "work": 16,
+        "sampleSize": 114,
+        "letter": "E"
       }
     ],
     "link": "35608"
@@ -11118,13 +10825,6 @@
         "grade": 3.75,
         "work": 43,
         "sampleSize": 8
-      },
-      {
-        "code": "TRT-25006",
-        "year": "17-18",
-        "grade": 3.18,
-        "work": 20,
-        "sampleSize": 6
       }
     ],
     "link": "43048"
@@ -12120,29 +11820,6 @@
         "sampleSize": 9
       }
     ]
-  },
-  {
-    "name": "Orientation to Doctoral Studies",
-    "id": "orientation-to-doctoral-studies-i",
-    "period": "I",
-    "instances": [
-      {
-        "code": "TTI-90006",
-        "year": "14-15",
-        "grade": 3.69,
-        "work": 10,
-        "sampleSize": 13
-      },
-      {
-        "code": "TST-90006",
-        "year": "14-15",
-        "grade": 3.67,
-        "work": 28,
-        "sampleSize": 21,
-        "letter": "C"
-      }
-    ],
-    "link": "38393"
   },
   {
     "name": "Sähkömagnetiikka 2",
@@ -14578,13 +14255,6 @@
       {
         "code": "MAT-02500",
         "year": "18-19",
-        "grade": 4.46,
-        "work": 14,
-        "sampleSize": 15
-      },
-      {
-        "code": "MAT-02500",
-        "year": "18-19",
         "grade": 3.51,
         "work": 6,
         "sampleSize": 55,
@@ -15196,13 +14866,6 @@
         "work": 23,
         "sampleSize": 252,
         "letter": "C"
-      },
-      {
-        "code": "TTA-11010",
-        "year": "15-16",
-        "grade": 3.52,
-        "work": 17,
-        "sampleSize": 12
       },
       {
         "code": "TTA-11010",
@@ -20639,42 +20302,6 @@
     ]
   },
   {
-    "name": "Kandidaatintyöseminaari",
-    "id": "kandidaatintyoseminaari-i-ii",
-    "period": "I-II",
-    "instances": [
-      {
-        "code": "ELT-10050",
-        "year": "14-15",
-        "grade": 3.31,
-        "work": 0,
-        "sampleSize": 6
-      },
-      {
-        "code": "ELT-10050",
-        "year": "15-16",
-        "grade": 4.2,
-        "work": 0,
-        "sampleSize": 5
-      },
-      {
-        "code": "KEB-12000",
-        "year": "17-18",
-        "grade": 3.32,
-        "work": 20,
-        "sampleSize": 6
-      },
-      {
-        "code": "MAT-60700",
-        "year": "17-18",
-        "grade": 3.31,
-        "work": 30,
-        "sampleSize": 13
-      }
-    ],
-    "link": "35937"
-  },
-  {
     "name": "Kandidaatintyökurssi",
     "id": "kandidaatintyokurssi-iii-iv",
     "period": "III-IV",
@@ -23584,13 +23211,6 @@
         "grade": 3.18,
         "work": -8,
         "sampleSize": 14
-      },
-      {
-        "code": "IHA-2377",
-        "year": "15-16",
-        "grade": 2.88,
-        "work": 9,
-        "sampleSize": 11
       }
     ]
   },
@@ -25519,42 +25139,6 @@
     "link": "36518"
   },
   {
-    "name": "Tietojohtamisen kandidaatintyöseminaari",
-    "id": "tietojohtamisen-kandidaatintyoseminaari-i-ii",
-    "period": "I-II",
-    "instances": [
-      {
-        "code": "TLO-32601",
-        "year": "15-16",
-        "grade": 4.6,
-        "work": 20,
-        "sampleSize": 5
-      },
-      {
-        "code": "TLO-32601",
-        "year": "15-16",
-        "grade": 4.2,
-        "work": 20,
-        "sampleSize": 5
-      },
-      {
-        "code": "TLO-32601",
-        "year": "17-18",
-        "grade": 3.71,
-        "work": 0,
-        "sampleSize": 6
-      },
-      {
-        "code": "TLO-32601",
-        "year": "18-19",
-        "grade": 3.54,
-        "work": 0,
-        "sampleSize": 5
-      }
-    ],
-    "link": "40896"
-  },
-  {
     "name": "Digital Design in Urban Environments",
     "id": "digital-design-in-urban-environments-ii",
     "period": "II",
@@ -26760,13 +26344,6 @@
         "work": 1,
         "sampleSize": 71,
         "letter": "E"
-      },
-      {
-        "code": "MEI-53000",
-        "year": "18-19",
-        "grade": 4.73,
-        "work": -7,
-        "sampleSize": 15
       },
       {
         "code": "MEI-53000",
@@ -30066,13 +29643,6 @@
       {
         "code": "MEI-46000",
         "year": "18-19",
-        "grade": 4.44,
-        "work": 0,
-        "sampleSize": 17
-      },
-      {
-        "code": "MEI-46000",
-        "year": "18-19",
         "grade": 4.25,
         "work": 1,
         "sampleSize": 45,
@@ -30258,13 +29828,6 @@
         "work": -1,
         "sampleSize": 35,
         "letter": "B"
-      },
-      {
-        "code": "MOL-81016",
-        "year": "18-19",
-        "grade": 3.9,
-        "work": -10,
-        "sampleSize": 10
       },
       {
         "code": "MOL-81016",
@@ -30494,13 +30057,6 @@
         "work": 12,
         "sampleSize": 57,
         "letter": "A"
-      },
-      {
-        "code": "MEI-61006",
-        "year": "18-19",
-        "grade": 4.04,
-        "work": 0,
-        "sampleSize": 12
       },
       {
         "code": "MEI-61006",
@@ -32283,17 +31839,31 @@
       {
         "code": "ELT-20100",
         "year": "16-17",
+        "grade": 3.75,
+        "work": 22,
+        "sampleSize": 19
+      },
+      {
+        "code": "ELT-20100",
+        "year": "17-18",
+        "grade": 3.83,
+        "work": 67,
+        "sampleSize": 13
+      }
+    ]
+  },
+    {
+    "name": "Analogiaelektroniikka",
+    "id": "analogiaelektroniikka-i",
+    "period": "I",
+    "instances": [
+      {
+        "code": "ELT-20100",
+        "year": "16-17",
         "grade": 4.16,
         "work": 20,
         "sampleSize": 22,
         "letter": "E"
-      },
-      {
-        "code": "ELT-20100",
-        "year": "16-17",
-        "grade": 3.75,
-        "work": 22,
-        "sampleSize": 19
       },
       {
         "code": "ELT-20100",
@@ -32302,13 +31872,6 @@
         "work": 30,
         "sampleSize": 22,
         "letter": "E"
-      },
-      {
-        "code": "ELT-20100",
-        "year": "17-18",
-        "grade": 3.83,
-        "work": 67,
-        "sampleSize": 13
       }
     ]
   },
@@ -32395,73 +31958,6 @@
         "grade": 3.92,
         "work": 8,
         "sampleSize": 26,
-        "letter": "M"
-      }
-    ],
-    "link": "47300"
-  },
-  {
-    "name": "Master's Seminar",
-    "id": "master-s-seminar-i-iv",
-    "period": "I-IV",
-    "instances": [
-      {
-        "code": "TST-01907",
-        "year": "16-17",
-        "grade": 4.11,
-        "work": 0,
-        "sampleSize": 9
-      },
-      {
-        "code": "TST-01907",
-        "year": "16-17",
-        "grade": 3.79,
-        "work": 1,
-        "sampleSize": 31,
-        "letter": "M"
-      },
-      {
-        "code": "BMT-01907",
-        "year": "17-18",
-        "grade": 4.29,
-        "work": 33,
-        "sampleSize": 7
-      },
-      {
-        "code": "TST-01907",
-        "year": "17-18",
-        "grade": 3.85,
-        "work": 13,
-        "sampleSize": 33,
-        "letter": "M"
-      },
-      {
-        "code": "TST-01907",
-        "year": "18-19",
-        "grade": 5.0,
-        "work": 0,
-        "sampleSize": 6
-      },
-      {
-        "code": "BMT-01907",
-        "year": "18-19",
-        "grade": 4.6,
-        "work": 0,
-        "sampleSize": 5
-      },
-      {
-        "code": "TST-01907",
-        "year": "18-19",
-        "grade": 4.18,
-        "work": 0,
-        "sampleSize": 12
-      },
-      {
-        "code": "TST-01907",
-        "year": "18-19",
-        "grade": 4.05,
-        "work": -1,
-        "sampleSize": 32,
         "letter": "M"
       }
     ],
@@ -37546,6 +37042,22 @@
         "letter": "A"
       },
       {
+        "code": "KEB-20000",
+        "year": "18-19",
+        "grade": 3.27,
+        "work": 8,
+        "sampleSize": 58,
+        "letter": "A"
+      }
+    ],
+    "link": "42835"
+  },
+  {
+    "name": "Ympäristötekniikan perusteet",
+    "id": "ymparistotekniikan-perusteet-iii-iv-2",
+    "period": "III-IV",
+    "instances": [
+      {
         "code": "KEB-20001",
         "year": "17-18",
         "grade": 3.1,
@@ -37560,14 +37072,6 @@
         "work": 17,
         "sampleSize": 81,
         "letter": "B"
-      },
-      {
-        "code": "KEB-20000",
-        "year": "18-19",
-        "grade": 3.27,
-        "work": 8,
-        "sampleSize": 58,
-        "letter": "A"
       }
     ],
     "link": "42835"
@@ -37885,13 +37389,6 @@
     "id": "basics-of-industrial-management-i",
     "period": "I",
     "instances": [
-      {
-        "code": "TTA-11017",
-        "year": "18-19",
-        "grade": 4.4,
-        "work": 40,
-        "sampleSize": 5
-      },
       {
         "code": "TTA-11017",
         "year": "18-19",
@@ -38986,7 +38483,15 @@
         "work": 32,
         "sampleSize": 32,
         "letter": "C"
-      },
+      }
+    ],
+    "link": "45399"
+  },
+  {
+    "name": "Elektroniikan perusteet",
+    "id": "elektroniikan-perusteet-i-2",
+    "period": "I",
+    "instances": [
       {
         "code": "ELT-20101",
         "year": "18-19",
@@ -39125,17 +38630,25 @@
       {
         "code": "ELT-20101",
         "year": "18-19",
-        "grade": 3.76,
-        "work": 7,
-        "sampleSize": 24,
-        "letter": "C"
-      },
-      {
-        "code": "ELT-20101",
-        "year": "18-19",
         "grade": 3.75,
         "work": 24,
         "sampleSize": 31,
+        "letter": "C"
+      }
+    ],
+    "link": "45399"
+  },
+  {
+    "name": "Elektroniikan perusteet",
+    "id": "elektroniikan-perusteet-ii-2",
+    "period": "II",
+    "instances": [
+      {
+        "code": "ELT-20101",
+        "year": "18-19",
+        "grade": 3.76,
+        "work": 7,
+        "sampleSize": 24,
         "letter": "C"
       }
     ],
@@ -39407,13 +38920,6 @@
     "id": "systems-condition-monitoring-iii-iv",
     "period": "III-IV",
     "instances": [
-      {
-        "code": "MEI-66406",
-        "year": "18-19",
-        "grade": 3.6,
-        "work": -8,
-        "sampleSize": 12
-      },
       {
         "code": "MEI-66406",
         "year": "18-19",
