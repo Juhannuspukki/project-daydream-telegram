@@ -21,7 +21,7 @@ import json
 import menu
 import evaluation
 from uuid import uuid4
-from telegram import InlineQueryResultArticle, ParseMode, InputTextMessageContent
+from telegram import InlineQueryResultArticle, InlineQueryResultPhoto, ParseMode, InputTextMessageContent
 from telegram.ext import Updater, InlineQueryHandler, CommandHandler
 
 # Enable logging
@@ -52,31 +52,49 @@ def inlinequery(update, context):
     """Handle the inline query."""
     query = update.inline_query.query.lower()
 
-    if len(query) < 2:
+    if len(query) < 3:
         return
 
+    books = {'14-15': '📒', '15-16': '📕', '16-17': '📗', '17-18': '📘', '18-19': '📙', '19-20': '📓', '20-21': '📔'}
     results = []
     with open('kaiku.json', 'r') as file:
         accounts = json.load(file)
 
     for item in [x for x in accounts if query in x["name"].lower()]:
-        description = item["instances"][-1]["code"]
-        summary = f"*{(item['name'])}*\n\n"
+        codes = item["instances"][0]["code"]
+        years = f"\nYears {item['instances'][0]['year']}"
+        message = f"*{(item['name'])}*\n"
+        summary = f"Period(s) {(item['period'])}\n\n"
+        # add and hide a direct image link
+        summary += "[\u200c](https://course-o-meter-images.netlify.com/img/" + item["id"] + ".jpg)"
         for thing in item["instances"]:
-            summary += f"*{thing['year']}*\n"
-            summary += f"Code: {thing['code']}\n"
+            summary += f"*{books[thing['year']]} {thing['year']}*\n"
+            if thing['code'] not in codes:
+                codes += f", {thing['code']}"
+            if thing['year'] not in years:
+                years += f", {thing['year']}"
             if "letter" in thing.keys():
-                summary += f"Grade: {thing['letter']} ({str(thing['grade'])})\n"
+                summary += f"🏆: *{thing['letter']}* ({str(thing['grade'])})\n"
             else:
-                summary += f"Grade: ({str(thing['grade'])})\n"
-            summary += f"Sample Size: {str(thing['sampleSize'])}\n\n"
+                summary += f"🏆: ({str(thing['grade'])})\n"
+            summary += f"⏱: {'+' if thing['work'] > 0 else '' }{str(thing['work'])}%\n"
+            summary += f"🗂: {str(thing['sampleSize'])} samples\n\n"
+        summary += f"🌍: [View on Course-O-Meter](https://course-o-meter-dev.netlify.com/courses/{item['id']})"
+        if "link" in item.keys():
+            summary += f"\n🏛: [View on POP](https://poprock.tut.fi/group/pop/opas/opintojaksot/-/opintojakso/2019-2020/{item['link']})"
+        message += f"{codes}\n{summary}"
+
+        description = codes + years
 
         results.append(InlineQueryResultArticle(
             id=uuid4(),
-            title=item["name"],
+            title=item["name"] + ", period " + item["period"],
             description=description,
+            thumb_url="https://course-o-meter-images.netlify.com/thumbnails/" + item["id"] + ".jpg",
+            thumb_height=64,
+            thumb_width=64,
             input_message_content=InputTextMessageContent(
-                summary,
+                message,
                 parse_mode=ParseMode.MARKDOWN
             )))
 
