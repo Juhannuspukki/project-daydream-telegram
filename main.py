@@ -39,8 +39,7 @@ def start(update, context):
                               "to add me to chats to view course data. Simply write my name and your query to any chat."
                               "\n\nFor example you can write '@CourseRobot johdatus' (without quotes) to get "
                               "information about any course whose name contains the word 'johdatus'.\n\n"
-                              "However, there is more. If you would like to give additional feedback about a course "
-                              "and have it published at Course-O-Meter.com, just say /ratecourse!")
+                              "However, there is more. I also know the campus menus. Just say /menu to see them!")
 
 
 def help(update, context):
@@ -123,6 +122,7 @@ def main():
     dp.add_handler(CommandHandler("newton", menu.newton))
     dp.add_handler(CommandHandler("reaktori", menu.reaktori))
     dp.add_handler(CommandHandler("menu", menu.menu))
+    dp.add_handler(CommandHandler("fullmenu", menu.fullmenu))
 
     # on noncommand i.e message - echo the message on Telegram
     dp.add_handler(InlineQueryHandler(inlinequery))
